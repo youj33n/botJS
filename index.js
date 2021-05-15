@@ -1,5 +1,5 @@
 const T_API = require('node-telegram-bot-api')
-const TOKEN = '1715120550:AAHtohOd7pAwpiWj7cwmHEMR9Po3Z-bjTgM'
+const TOKEN = '*******'
 const bot = new T_API(TOKEN, {polling: true})
 
 const {gameOptions, againOptions} = require('./module')
